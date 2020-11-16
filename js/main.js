@@ -59,6 +59,7 @@ async function setup(){
   pen.classList.add("pen-tool")
   pen.style.display = "none"
   pen.src = "ressources/pen-tool.svg"
+  pen.id = "pen"
   await wait(2000)
   pen.style.display = "block"
   underline.style.width = "100%"
